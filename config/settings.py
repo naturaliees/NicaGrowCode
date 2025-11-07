@@ -37,7 +37,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'nicagrow_api.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -54,7 +54,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'nicagrow_api.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
